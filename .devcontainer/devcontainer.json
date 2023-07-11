@@ -8,7 +8,8 @@
     "Installing apt packages": "sudo apt-get -yqq update && sudo apt-get install -yqq python3-pip python3-xrootd"
   },
   "postCreateCommand": {
-    "Installing python packages": "python3 -m pip install -r requirements.txt"
+    "Installing python packages": "python3 -m pip install -r requirements.txt",
+    "Open notebook": "code notebook.ipynb"
   },
   "postAttachCommand": {
     "Open notebook": "code notebook.ipynb"
