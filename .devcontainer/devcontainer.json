@@ -10,6 +10,9 @@
   "postCreateCommand": {
     "Installing python packages": "python3 -m pip install -r requirements.txt"
   },
+  "postAttachCommand": {
+    "Open notebook": "code notebook.ipynb"
+  },
   "customizations": {
     "codespaces": {
       "openFiles": []
